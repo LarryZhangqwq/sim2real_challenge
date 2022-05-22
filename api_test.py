@@ -24,7 +24,7 @@ def check_state(state, info=None):
     print("-----------------------end check---------------------")
 
 
-env = CogEnvDecoder(env_name="linux_v2/cog_sim2real_env.x86_64", no_graphics=False, time_scale=1, worker_id=1) # linux os
+env = CogEnvDecoder(env_name="../linux_v2/cog_sim2real_env.x86_64", no_graphics=False, time_scale=1, worker_id=1) # linux os
 # env = CogEnvDecoder(env_name="win_V1/RealGame.exe", no_graphics=False, time_scale=1, worker_id=1) # windows os
 # env_name: path of the simulator
 # no_graphics: should use headless mode [Warning: if no_graphics is True, image if invalid!]
